@@ -1,0 +1,58 @@
+/* pages/login/login.wxss */
+
+.login-container {
+  height: 100vh;
+  padding: 0 5% 0 5%;
+  /* margin: 0 auto; */
+  background: #f6f6f6;
+}
+
+.login-header {
+  width: 100%;
+  text-align: center;
+  min-height: 20vh;
+  line-height: 20vh;
+  font-size: 18px;
+  color: #108066;
+  font-family: '宋体'；;
+}
+
+.login-content {
+  font-size: 14px;
+  min-height: 25vh;
+  color: #108066;
+  background: #f3f3f3;
+}
+
+.form-item {
+  margin-top: 1em;
+  border: 1px solid #108066;
+  padding: 0.25em;
+  border-radius: 0.2em;
+}
+
+.form-item>input {
+  color: #3b3b32;
+}
+
+.other-options {
+  box-sizing: border-box;
+  margin: .5em 0 .5em 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.other-options>text {
+  display: inline-block;
+}
+
+.form-btn>button {
+  font-size: 16px;
+  color: #423d3d;
+  /* border-radius: 0.5em; */
+  width: 90%;
+}
+
+.form-btn>button:active {
+  color: #108060;
+}

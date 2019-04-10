@@ -1,0 +1,22 @@
+<view class='login-container'>
+  <view class='login-header'>
+    <text class='login-title'>健康管家</text>
+  </view>
+  <view class='login-content'>
+    <form class='form-container' bindsubmit="formSubmit">
+      <view class='form-item'>
+        <input name="username" type='text' placeholder='用户'></input>
+      </view>
+      <view class='form-item'>
+        <input name="password" type='password' placeholder='密码'></input>
+      </view>
+      <view class='other-options'>
+        <text class='register'>免费注册</text>
+        <text class='re-pwd'>忘记密码</text>
+      </view>
+      <view class='form-btn'>
+        <button type='pramiry' form-type="submit">登录</button>
+      </view>
+    </form>
+  </view>
+</view>

@@ -1,0 +1,13 @@
+// 身体数据：身高，体重，血压，血型，血脂，心跳、血糖等；
+<view class="record-container">
+  <form>
+  <input placeholder='身高'></input>
+    <input placeholder='身高'></input>
+      <input placeholder='身高'></input>
+        <input placeholder='身高'></input>
+          <input placeholder='身高'></input>
+            <input placeholder='身高'></input>
+            
+  
+  </form>
+</view>

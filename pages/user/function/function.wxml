@@ -1,0 +1,16 @@
+<view class="function-container">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{imgUrls}}" wx:key="index">
+      <swiper-item>
+        <image class='swiper-img' src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='fn-options'>
+    <block wx:for="{{fnList}}" wx:key="index">
+      <navigator class="nav-item" url="../../{{item.path}}" open-type="redirect" hover-class="other-navigator-hover">
+        {{item.name}}
+      </navigator>
+    </block>
+  </view>
+</view>

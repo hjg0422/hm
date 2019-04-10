@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/logs/logs",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/user/center/center",
+    "pages/user/function/function",
+    "pages/user/function/record/record"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/user/function/function",
+        "text": "功能"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "查询"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人中心"
+      }
+    ]
+  }
+}

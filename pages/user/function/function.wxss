@@ -1,0 +1,39 @@
+/* pages/user/function/function.wxss */
+.function-container{
+  font-size: 16px;
+  padding-left: 2em;
+  padding-right: 2em;
+  height: 100vh;
+  font-family: '宋体';
+}
+.swiper-img{
+  width: 100%;
+}
+.fn-options{
+  height: calc(100% - 150px);
+  position: relative;
+}
+.nav-item{
+  display: block;
+  background: lightblue;
+  border-radius: .2em;
+  padding: .2em;
+  max-width: 6em;
+  color: #108066;
+  font-size: 15px;
+  margin: .5em auto;
+  text-align: center;
+}
+.nav-item:nth-of-type(1){
+  background: transparent;
+  text-align: center;
+  border-radius: none;
+  color: #aaaaaa;
+  font-size: 13px;
+  position: absolute;
+  bottom: .5em;
+  left: calc(50% - 3em);
+}
+.nav-item:nth-of-type(1):active{
+  color: lightblue;
+}
