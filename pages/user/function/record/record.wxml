@@ -1,13 +1,39 @@
-// 身体数据：身高，体重，血压，血型，血脂，心跳、血糖等；
+<!-- // 身体数据：身高，体重，血压，血型，血脂，心跳、血糖等； -->
 <view class="record-container">
-  <form>
-  <input placeholder='身高'></input>
-    <input placeholder='身高'></input>
-      <input placeholder='身高'></input>
-        <input placeholder='身高'></input>
-          <input placeholder='身高'></input>
-            <input placeholder='身高'></input>
-            
-  
+  <text class='title'>
+  信息录入
+  </text>
+  <form class='form-content' bindsubmit='formSubmit'>
+    <view class='input-item'>
+      <text>身高</text>
+      <input name="height" placeholder=''></input>
+    </view>
+    <view class='input-item'>
+      <text>体重</text>
+      <input name="weight" placeholder=''></input>
+    </view>
+    <view class='input-item'>
+      <text>血型</text>
+      <input name="bloodType" placeholder=''></input>
+    </view>
+    <view class='input-item'>
+      <text>血压</text>
+      <input name="bloodPre" placeholder=''></input>
+    </view>
+    <view class='input-item'>
+      <text>血脂</text>
+      <input name="bloodFat" placeholder=''></input>
+    </view>
+    <view class='input-item'>
+      <text>心跳</text>
+      <input name="heartBeat" placeholder=''></input>
+    </view>
+    <view class='input-item'>
+      <text>血糖</text>
+      <input name="bloodGlucose" placeholder=''></input>
+    </view>
+    <view class='form-btn'>
+      <button type='pramiry' form-type='submit'>录入</button>
+    </view>
   </form>
 </view>

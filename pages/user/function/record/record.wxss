@@ -1,1 +1,52 @@
 /* pages/user/function/record/record.wxss */
+
+.record-container {
+  height: 100vh;
+  font-size: 14px;
+  padding: 0 1em 0 1em;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: #108066;
+  text-align: center;
+}
+
+.record-container {
+  /* border: 1px solid lightblue; */
+  padding: 1.5em;
+}
+
+.input-item>text, .input-item>input {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.input-item>text {
+  font-size: 14px;
+  color: #8d8888;
+  max-width: 3em;
+}
+
+.input-item>input {
+  padding-left: 1em;
+  font-family: '宋体';
+}
+
+.input-item {
+  margin-top: 0.5em;
+  border-bottom: 1px solid #108066;
+}
+
+.form-btn>button {
+  position: absolute;
+  font-size: 16px;
+  color: #108066;
+  height: 2em;
+  line-height: 2em;
+  width: 70%;
+  left: 15%;
+  bottom: 2em;
+}
